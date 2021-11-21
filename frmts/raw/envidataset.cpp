@@ -2829,7 +2829,6 @@ void GDALRegister_ENVI()
     poDriver->SetMetadataItem(GDAL_DCAP_RASTER, "YES");
     poDriver->SetMetadataItem(GDAL_DMD_LONGNAME, "ENVI .hdr Labelled");
     poDriver->SetMetadataItem(GDAL_DMD_HELPTOPIC, "drivers/raster/envi.html");
-    poDriver->SetMetadataItem(GDAL_DMD_EXTENSION, "");
     poDriver->SetMetadataItem(GDAL_DMD_CREATIONDATATYPES,
                               "Byte Int16 UInt16 Int32 UInt32 "
                               "Float32 Float64 CFloat32 CFloat64");
